@@ -1,0 +1,2 @@
+add pretrained model here
+set path in the config yaml or while running on command line
