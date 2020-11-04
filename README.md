@@ -53,7 +53,13 @@ CUDA_VISIBLE_DEVICES=0 python examples/melgan/decode_melgan.py \
 Just load pretrained model and training from scratch with other languages. **DO NOT FORGET** re-preprocessing on your dataset if needed. A hop_size should be 256 if you want to use our pretrained.
 
 ## Learning Cuves
-Here is a learning curves of melgan based on this config [`melgan.v1.yaml`](https://github.com/44himanshu44/Melgan-Vocoder/blob/master/docs/melgan_tensorboard.gif)
+Here is a learning curves of melgan based on this config [`melgan.v1.yaml`]
+We log some information that can be visualized with TensorBoard:
+```bash
+tensorboard --logdir /exp/train.melgan.v1
+```
+
+![Tensorboard Demo](https://github.com/44himanshu44/Melgan-Vocoder/blob/master/docs/melgan_tensorboard.gif)
 
 
 
