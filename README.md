@@ -67,7 +67,7 @@ Here is a learning curves of melgan based on this config [`melgan.v1.yaml`](http
 ## Pretrained Models and Audio samples
 | Model                                                                                                          | Conf                                                                                                                        | Lang  | Fs [Hz] | Mel range [Hz] | FFT / Hop / Win [pt] | # iters |
 | :------                                                                                                        | :---:                                                                                                                       | :---: | :----:  | :--------:     | :---------------:    | :-----: |
-| generator-300000.h5             | [link](https://drive.google.com/file/d/12m1ibRH3lBmL8zEvjGZ4HAAHWZwJUdlJ/view?usp=sharing)          | EN    | 22.05k  | 80-7600        | 1024 / 256 / None    | 1500k    |
+| generator-300000.h5             | [link](https://drive.google.com/drive/folders/1BTeGDdrAEoGYTHTeEToN0VCiF1_xebBI?usp=sharing)          | EN    | 22.05k  | 80-7600        | 1024 / 256 / None    | 1500k    |
 
 
 ## Reference
