@@ -31,7 +31,7 @@ In case you want to resume the training progress, please following below example
 
 If you want to finetune a model, use `--pretrained` like this with the filename of the generator
 ```bash
---pretrained ptgenerator.h5
+--pretrained pretrained/melgan/generator-16700000.h5
 ```
 
 
@@ -67,12 +67,9 @@ Here is a learning curves of melgan based on this config [`melgan.v1.yaml`](http
 ## Pretrained Models and Audio samples
 | Model                                                                                                          | Conf                                                                                                                        | Lang  | Fs [Hz] | Mel range [Hz] | FFT / Hop / Win [pt] | # iters |
 | :------                                                                                                        | :---:                                                                                                                       | :---: | :----:  | :--------:     | :---------------:    | :-----: |
-| [generator-300000.h5]             | [link](https://drive.google.com/file/d/12m1ibRH3lBmL8zEvjGZ4HAAHWZwJUdlJ/view?usp=sharing)          | EN    | 22.05k  | 80-7600        | 1024 / 256 / None    | 1500k    |
+| generator-300000.h5             | [link](https://drive.google.com/file/d/12m1ibRH3lBmL8zEvjGZ4HAAHWZwJUdlJ/view?usp=sharing)          | EN    | 22.05k  | 80-7600        | 1024 / 256 / None    | 1500k    |
 
 
 ## Reference
 
-1. https://github.com/descriptinc/melgan-neurips
-2. https://github.com/kan-bayashi/ParallelWaveGAN
-3. https://github.com/tensorflow/addons
-4. [MelGAN: Generative Adversarial Networks for Conditional Waveform Synthesis](https://arxiv.org/abs/1910.06711)
+1. https://github.com/dathudeptrai/TensorFlowTTS/tree/master/examples/melgan
